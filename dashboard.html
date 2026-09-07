@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>📋 Your Reminders</h1>
+
+<button onclick="toggleMode()">🌙 Toggle Mode</button>
+
+<p id="clock"></p>
+
+<!-- 📊 STATS -->
+<div class="container">
+  <h3>📊 Stats</h3>
+  <p id="statsDash">Loading...</p>
+</div>
+
+<!-- ⏰ NEXT DOSE -->
+<div class="container">
+  <h3>⏰ Next Dose</h3>
+  <p id="nextDose">Loading...</p>
+</div>
+
+<input id="search" placeholder="Search..." onkeyup="searchReminder()">
+
+<div id="list"></div>
+
+<p id="empty" style="display:none;">No reminders yet</p>
+
+<a href="index.html"><button>➕ Add New</button></a>
+
+<audio id="alarmSound" src="https://www.soundjay.com/button/beep-07.wav"></audio>
+
+<div id="popup" class="popup hidden">
+  <h2>⏰ Reminder!</h2>
+  <p id="popupText"></p>
+
+  <button onclick="closePopup()">OK</button>
+  <button onclick="snooze()">Snooze 1 min</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

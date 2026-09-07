@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Medicine Reminder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>💊 Medicine Reminder</h1>
+<p class="tagline">Stay Healthy, Stay On Time 💙</p>
+
+<h3 id="greeting"></h3>
+<p id="clock"></p>
+
+<div class="container">
+  <h3>⏰ Next Dose</h3>
+  <p id="nextReminder">Loading...</p>
+</div>
+
+<div class="container">
+  <h3>📊 Today Stats</h3>
+  <p id="stats">Loading...</p>
+</div>
+
+<div class="container">
+  <input id="name" placeholder="Name">
+  <input id="medicine" placeholder="Medicine">
+  <input type="time" id="time">
+
+  <button onclick="setReminder()">Set Reminder</button>
+  <p id="status"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
