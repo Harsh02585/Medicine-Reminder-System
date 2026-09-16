@@ -218,4 +218,4 @@ B.Tech Computer Science & Engineering
 
 ### ⭐ If you found this project useful
 
-Give this repository a **⭐ Star** and feel free to explore the project!
+Give this repository a ** Star** and feel free to explore the project!
