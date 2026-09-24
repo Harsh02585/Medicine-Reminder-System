@@ -18,7 +18,7 @@ The Medicine Reminder System allows users to:
 
 The application is designed with a simple and user-friendly interface to help users maintain their medication schedules effectively.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Frontend
 
